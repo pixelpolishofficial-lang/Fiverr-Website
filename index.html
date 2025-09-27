@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Web Design Studio | Fiverr Freelancer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">HFT-KSA</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link" data-en="Home" data-de="Startseite">Home</a>
+                <a href="#about" class="nav-link" data-en="About" data-de="Über mich">About</a>
+                <a href="#portfolio" class="nav-link" data-en="Portfolio" data-de="Portfolio">Portfolio</a>
+                <a href="#process" class="nav-link" data-en="Process" data-de="Prozess">Process</a>
+                <a href="#contact" class="nav-link" data-en="Contact" data-de="Kontakt">Contact</a>
+            </div>
+            <div class="language-toggle">
+                <button id="language-toggle-btn" class="lang-btn" aria-label="Toggle language">
+                    <span class="lang-text">DE</span>
+                </button>
+            </div>
+            <div class="theme-toggle">
+                <button id="theme-toggle-btn" class="theme-btn" aria-label="Toggle theme">
+                    <i class="fas fa-moon theme-icon"></i>
+                </button>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+                <div class="shape shape-6"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line" data-en="Creating" data-de="Erstellen">Creating</span>
+                    <span class="title-line" data-en="Digital" data-de="Digitale">Digital</span>
+                    <span class="title-line highlight" data-en="Masterpieces" data-de="Meisterwerke">Masterpieces</span>
+                </h1>
+                <p class="hero-subtitle" data-en="Transform your ideas into stunning, animated websites that captivate and convert" data-de="Verwandeln Sie Ihre Ideen in beeindruckende, animierte Websites, die fesseln und überzeugen">
+                    Transform your ideas into stunning, animated websites that captivate and convert
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">
+                        <span data-en="View My Work" data-de="Meine Arbeiten ansehen">View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="https://fiverr.com/pixelpolsih" target="_blank" class="btn btn-secondary">
+                        <span data-en="Hire on Fiverr" data-de="Auf Fiverr beauftragen">Hire on Fiverr</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 data-en="Web Design" data-de="Webdesign">Web Design</h3>
+                        <p data-en="Modern & Responsive" data-de="Modern & Responsiv">Modern & Responsive</p>
+                    </div>
+                </div>
+                <div class="floating-card">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <h3 data-en="Animations" data-de="Animationen">Animations</h3>
+                        <p data-en="Smooth & Engaging" data-de="Flüssig & Fesselnd">Smooth & Engaging</p>
+                    </div>
+                </div>
+                <div class="floating-card">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 data-en="Mobile First" data-de="Mobile First">Mobile First</h3>
+                        <p data-en="Perfect on All Devices" data-de="Perfekt auf allen Geräten">Perfect on All Devices</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fade Transition -->
+    <div class="fade-transition"></div>
+
+    <!-- Photo Hero Section -->
+    <section id="story" class="photo-hero">
+        <div class="photo-hero-bg">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80" alt="Creative workspace background" class="hero-bg-image">
+            <div class="photo-hero-overlay"></div>
+        </div>
+        <div class="photo-hero-content">
+            <div class="container">
+                <div class="hero-text-content">
+                    <h2 class="hero-photo-title" data-en="Crafting Digital Experiences" data-de="Digitale Erlebnisse gestalten">Crafting Digital Experiences</h2>
+                    <p class="hero-photo-subtitle" data-en="Every project is a journey from concept to creation. I believe in the power of thoughtful design and clean code to transform ideas into digital experiences that not only look beautiful but also deliver real value to users and businesses." data-de="Jedes Projekt ist eine Reise von der Idee zur Umsetzung. Ich glaube an die Kraft durchdachten Designs und sauberen Codes, um Ideen in digitale Erlebnisse zu verwandeln, die nicht nur schön aussehen, sondern auch echten Mehrwert für Nutzer und Unternehmen bieten.">
+                        Every project is a journey from concept to creation. I believe in the power of thoughtful design 
+                        and clean code to transform ideas into digital experiences that not only look beautiful but 
+                        also deliver real value to users and businesses.
+                    </p>
+                    <div class="hero-photo-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label" data-en="Projects Completed" data-de="Projekte abgeschlossen">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label" data-en="Client Satisfaction" data-de="Kundenzufriedenheit">Client Satisfaction</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label" data-en="Support Available" data-de="Support verfügbar">Support Available</div>
+                        </div>
+                    </div>
+                    <div class="hero-photo-cta">
+                        <a href="#about" class="btn btn-primary">
+                            <span data-en="Learn More About Me" data-de="Mehr über mich erfahren">Learn More About Me</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Transition Wave (Photo to About) -->
+        <div class="transition-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,120V73.71c47.79-22.2,103.59-32.17,158-28,70.36,5.37,136.33,33.31,206.8,37.5C438.64,87.57,512.34,66.33,583,47.95c69.27-18,138.3-24.88,209.4-13.08,36.15,6,69.85,17.84,104.45,29.34C989.49,95,1113,134.29,1200,67.53V120Z" opacity=".25" fill="var(--bg-200)"></path>
+                <path d="M0,120V104.19C13,83.08,27.64,63.14,47.69,47.95,99.41,8.73,165,9,224.58,28.42c31.15,10.15,60.09,26.07,89.67,39.8,40.92,19,84.73,46,130.83,49.67,36.26,2.85,70.9-9.42,98.6-31.56,31.77-25.39,62.32-62,103.63-73,40.44-10.79,81.35,6.69,119.13,24.28s75.16,39,116.92,43.05c59.73,5.85,113.28-22.88,168.9-38.84,30.2-8.66,59-6.17,87.09,7.5,22.43,10.89,48,26.93,60.65,49.24V120Z" opacity=".5" fill="var(--bg-200)"></path>
+                <path d="M0,120V114.37C149.93,61,314.09,48.68,475.83,77.43c43,7.64,84.23,20.12,127.61,26.46,59,8.63,112.48-12.24,165.56-35.4C827.93,42.78,886,24.76,951.2,30c86.53,7,172.46,45.71,248.8,84.81V120Z" fill="var(--bg-200)"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About & Skills Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="About Me" data-de="Über mich">About Me</h2>
+                <p class="section-subtitle" data-en="Passionate about creating digital experiences that matter" data-de="Leidenschaftlich für die Schaffung bedeutungsvoller digitaler Erlebnisse">Passionate about creating digital experiences that matter</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3 data-en="Creative Vision" data-de="Kreative Vision">Creative Vision</h3>
+                        <p data-en="I specialize in transforming complex ideas into beautiful, user-friendly websites that not only look stunning but also drive real business results." data-de="Ich spezialisiere mich darauf, komplexe Ideen in wunderschöne, benutzerfreundliche Websites zu verwandeln, die nicht nur beeindruckend aussehen, sondern auch echte Geschäftsergebnisse erzielen.">I specialize in transforming complex ideas into beautiful, user-friendly websites that not only look stunning but also drive real business results.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3 data-en="Technical Excellence" data-de="Technische Exzellenz">Technical Excellence</h3>
+                        <p data-en="With expertise in modern web technologies, I create fast, responsive, and accessible websites that work perfectly across all devices." data-de="Mit Expertise in modernen Webtechnologien erstelle ich schnelle, responsive und barrierefreie Websites, die auf allen Geräten perfekt funktionieren.">With expertise in modern web technologies, I create fast, responsive, and accessible websites that work perfectly across all devices.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3 data-en="Client Focus" data-de="Kundenfokus">Client Focus</h3>
+                        <p data-en="Every project is a collaboration. I work closely with clients to understand their vision and bring it to life with creativity and precision." data-de="Jedes Projekt ist eine Zusammenarbeit. Ich arbeite eng mit Kunden zusammen, um ihre Vision zu verstehen und sie mit Kreativität und Präzision zum Leben zu erwecken.">Every project is a collaboration. I work closely with clients to understand their vision and bring it to life with creativity and precision.</p>
+                    </div>
+                </div>
+                <div class="skills-section">
+                    <h3 data-en="Skills & Technologies" data-de="Fähigkeiten & Technologien">Skills & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <span>UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Portfolio" data-de="Portfolio">Portfolio</h2>
+                <p class="section-subtitle" data-en="Recent projects that showcase my creativity and technical skills" data-de="Aktuelle Projekte, die meine Kreativität und technischen Fähigkeiten zeigen">Recent projects that showcase my creativity and technical skills</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="project-preview">
+                            <div class="preview-header">
+                                <div class="preview-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="preview-content">
+                                <div class="preview-element element-1"></div>
+                                <div class="preview-element element-2"></div>
+                                <div class="preview-element element-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-en="E-commerce Platform" data-de="E-Commerce-Plattform">E-commerce Platform</h3>
+                        <p data-en="Modern shopping experience with smooth animations and mobile-first design" data-de="Moderne Einkaufserfahrung mit flüssigen Animationen und Mobile-First-Design">Modern shopping experience with smooth animations and mobile-first design</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag" data-en="Animation" data-de="Animation">Animation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="project-preview">
+                            <div class="preview-header">
+                                <div class="preview-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="preview-content">
+                                <div class="preview-element element-1"></div>
+                                <div class="preview-element element-2"></div>
+                                <div class="preview-element element-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-en="Corporate Website" data-de="Unternehmenswebsite">Corporate Website</h3>
+                        <p data-en="Professional business website with interactive elements and clean design" data-de="Professionelle Unternehmenswebsite mit interaktiven Elementen und sauberem Design">Professional business website with interactive elements and clean design</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag" data-en="Responsive" data-de="Responsiv">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="project-preview">
+                            <div class="preview-header">
+                                <div class="preview-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="preview-content">
+                                <div class="preview-element element-1"></div>
+                                <div class="preview-element element-2"></div>
+                                <div class="preview-element element-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-en="Portfolio Website" data-de="Portfolio-Website">Portfolio Website</h3>
+                        <p data-en="Creative showcase with stunning animations and unique interactions" data-de="Kreative Präsentation mit beeindruckenden Animationen und einzigartigen Interaktionen">Creative showcase with stunning animations and unique interactions</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">CSS3</span>
+                            <span class="tag" data-en="Animation" data-de="Animation">Animation</span>
+                            <span class="tag" data-en="Creative" data-de="Kreativ">Creative</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process & Reviews Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="My Process" data-de="Mein Prozess">My Process</h2>
+                <p class="section-subtitle" data-en="How I bring your vision to life" data-de="Wie ich Ihre Vision zum Leben erwecke">How I bring your vision to life</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 data-en="Discovery" data-de="Entdeckung">Discovery</h3>
+                        <p data-en="Understanding your goals, target audience, and vision for the project" data-de="Verstehen Ihrer Ziele, Zielgruppe und Vision für das Projekt">Understanding your goals, target audience, and vision for the project</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 data-en="Design" data-de="Design">Design</h3>
+                        <p data-en="Creating wireframes and visual designs that align with your brand" data-de="Erstellen von Wireframes und visuellen Designs, die zu Ihrer Marke passen">Creating wireframes and visual designs that align with your brand</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 data-en="Development" data-de="Entwicklung">Development</h3>
+                        <p data-en="Building your website with clean code and smooth animations" data-de="Erstellen Ihrer Website mit sauberem Code und flüssigen Animationen">Building your website with clean code and smooth animations</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-section">
+                <h3 data-en="What Clients Say" data-de="Was Kunden sagen">What Clients Say</h3>
+                <div class="reviews-slider">
+                    <div class="review-card">
+                        <div class="review-content">
+                            <p data-en="&quot;Absolutely amazing work! The animations are smooth and the design is exactly what I envisioned. Highly recommended!&quot;" data-de="&quot;Absolut fantastische Arbeit! Die Animationen sind flüssig und das Design ist genau das, was ich mir vorgestellt habe. Sehr empfehlenswert!&quot;">"Absolutely amazing work! The animations are smooth and the design is exactly what I envisioned. Highly recommended!"</p>
+                        </div>
+                        <div class="review-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <span data-en="Business Owner" data-de="Unternehmerin">Business Owner</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-content">
+                            <p data-en="&quot;Professional, creative, and delivered exactly on time. The website exceeded my expectations and my customers love it!&quot;" data-de="&quot;Professionell, kreativ und pünktlich geliefert. Die Website hat meine Erwartungen übertroffen und meine Kunden lieben sie!&quot;">"Professional, creative, and delivered exactly on time. The website exceeded my expectations and my customers love it!"</p>
+                        </div>
+                        <div class="review-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Mike Chen</h4>
+                                <span data-en="Entrepreneur" data-de="Unternehmer">Entrepreneur</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-content">
+                            <p data-en="&quot;The attention to detail and creativity is outstanding. This freelancer truly understands modern web design.&quot;" data-de="&quot;Die Aufmerksamkeit für Details und Kreativität ist herausragend. Dieser Freelancer versteht wirklich modernes Webdesign.&quot;">"The attention to detail and creativity is outstanding. This freelancer truly understands modern web design."</p>
+                        </div>
+                        <div class="review-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Emily Davis</h4>
+                                <span data-en="Marketing Director" data-de="Marketing-Direktorin">Marketing Director</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h2 data-en="Ready to Create Something Amazing?" data-de="Bereit, etwas Großartiges zu schaffen?">Ready to Create Something Amazing?</h2>
+                    <p data-en="Let's work together to bring your vision to life with a stunning, animated website that captivates your audience." data-de="Lassen Sie uns zusammenarbeiten, um Ihre Vision mit einer beeindruckenden, animierten Website zum Leben zu erwecken, die Ihr Publikum fesselt.">Let's work together to bring your vision to life with a stunning, animated website that captivates your audience.</p>
+                    <div class="contact-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-en="100% Custom Design" data-de="100% Individuelles Design">100% Custom Design</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-en="Mobile Responsive" data-de="Mobile Responsiv">Mobile Responsive</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-en="Fast Loading" data-de="Schnelles Laden">Fast Loading</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-en="SEO Optimized" data-de="SEO-Optimiert">SEO Optimized</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-actions">
+                    <a href="https://fiverr.com/pixelpolsih" target="_blank" class="cta-button primary">
+                        <span data-en="Hire on Fiverr" data-de="Auf Fiverr beauftragen">Hire on Fiverr</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="mailto:pixelpolish.official@gmail.com" class="cta-button secondary">
+                        <span data-en="Send Email" data-de="E-Mail senden">Send Email</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p data-en="&copy; 2024 Creative Studio. All rights reserved." data-de="&copy; 2024 Creative Studio. Alle Rechte vorbehalten.">&copy; 2024 Creative Studio. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://twitter.com" target="_blank" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://dribbble.com" target="_blank" class="social-link" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
