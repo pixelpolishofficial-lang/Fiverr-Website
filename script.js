@@ -560,30 +560,17 @@ document.addEventListener('DOMContentLoaded', function() {
         const cookieModal = document.getElementById('cookie-modal');
         const accessRestricted = document.getElementById('access-restricted');
         
-        // Debug: Check if elements exist
-        console.log('Cookie Banner Element:', cookieBanner);
-        console.log('Accept Button:', acceptBtn);
-        console.log('Decline Button:', declineBtn);
-        console.log('Settings Button:', settingsBtn);
-        
         // Check if user has already made a choice
         const cookieChoice = localStorage.getItem('cookieConsent');
-        console.log('Cookie Choice:', cookieChoice);
         
         if (!cookieChoice) {
-            console.log('No cookie choice found, showing banner in 2 seconds');
             // Show cookie banner after 2 seconds
             setTimeout(() => {
-                console.log('Showing cookie banner now');
                 if (cookieBanner) {
                     cookieBanner.classList.add('show');
-                    console.log('Cookie banner should be visible');
-                } else {
-                    console.error('Cookie banner element not found!');
                 }
             }, 2000);
         } else {
-            console.log('Cookie choice found:', cookieChoice);
             // Apply saved preferences on page load
             if (cookieChoice === 'accepted') {
                 enableAllCookies();
@@ -670,20 +657,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         function enableAllCookies() {
-            console.log('All cookies enabled');
             // Enable analytics, marketing, and preference cookies
             // Add your analytics code here (Google Analytics, etc.)
         }
         
         function enableNecessaryCookiesOnly() {
-            console.log('Only necessary cookies enabled');
             // Only enable necessary cookies
             // Disable analytics and marketing cookies
         }
         
         function applyCustomPreferences() {
             const preferences = JSON.parse(localStorage.getItem('cookiePreferences') || '{}');
-            console.log('Custom preferences applied:', preferences);
             
             if (preferences.analytics) {
                 // Enable analytics
@@ -774,13 +758,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         function enableAllCookies() {
-            console.log('All cookies enabled');
             // Enable analytics, marketing, and preference cookies
         }
         
         function applyCustomPreferences() {
             const preferences = JSON.parse(localStorage.getItem('cookiePreferences') || '{}');
-            console.log('Custom preferences applied:', preferences);
             
             if (preferences.analytics) {
                 // Enable analytics
@@ -798,18 +780,9 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeCookieConsent();
 
     // Debug function to clear cookie preferences (for testing)
-    // Uncomment the line below to reset cookie preferences
-    localStorage.removeItem('cookieConsent'); 
-    localStorage.removeItem('cookiePreferences');
-    
-    // Force show cookie banner for testing
-    setTimeout(() => {
-        const cookieBanner = document.getElementById('cookie-banner');
-        if (cookieBanner) {
-            cookieBanner.classList.add('show');
-            console.log('Forced cookie banner to show');
-        }
-    }, 3000);
+    // Uncomment the lines below to reset cookie preferences for testing
+    // localStorage.removeItem('cookieConsent'); 
+    // localStorage.removeItem('cookiePreferences');
 
     // Add entrance animations
     const entranceElements = document.querySelectorAll('.hero-subtitle, .hero-buttons');
