@@ -1,0 +1,24 @@
+{
+  "name": "hft-ksa-portfolio",
+  "version": "1.0.0",
+  "description": "Creative Web Design Studio Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'Static site - no build needed'",
+    "preview": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "web-design",
+    "freelancer",
+    "fiverr"
+  ],
+  "author": "HFT-KSA",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  }
+}
